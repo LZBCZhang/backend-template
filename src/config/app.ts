@@ -6,7 +6,7 @@ import { MovieRoutes } from "../routes/movie_routes";
 
 class App {
    public app: express.Application;
-   public mongoUrl: string = 'mongodb+srv://li1113:Zouzou%401113@cluster1.kkc5y.mongodb.net/?retryWrites=true&w=majority';
+   public mongoUrl: string = 'mongodb+srv://secretKey@cluster1.kkc7y.mongodb.net/?retryWrites=true&w=majority';
 
    private movies_routes: MovieRoutes = new MovieRoutes();
 
